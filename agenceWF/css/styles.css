@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Manrope:wght@200..800&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebe4ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#logo {
+    width: 25%;
+}
+#logo img {
+    width: 30%;
+    height: 150px;
+}
+#titre {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+#titre h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+nav {
+    width: 50%;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 10px;
+}
+nav ul li {
+    margin-right: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover {
+    color: #00a;
+}
+main {
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+    top: 150px;
+
+}
+#enonce {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/background1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#slogan {
+    background-color: #ebe4ff;
+}
+#slogan h2 {
+    text-align: center;
+}
+#slogan p {
+    text-align: justify;
+    padding: 15px;
+}
+#description {
+    margin-top: 50px;
+    background-color: #ebe4ff;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+#competence {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+#vitrine, #commerce, #blog {
+    width: 25%;
+
+}
+#vitrine img, #commerce img, #blog img {
+    width: 100%;
+}
+h3 {
+    text-align: center;
+}
+#personnes {
+    width: 100%;
+    display: flex;
+
+
+}
+#personne1, #personne2, #personne3, #personne4, #personne5 {
+    width: 50%;
+    margin: 25px;
+
+}
+#personne1 img, #personne2 img, #personne3 img, #personne4 img, #personne5 img {
+    width: 100%;
+}
+footer {
+    background-color: #ebe4ff;
+    text-align: center;
+    padding: 10px;
+
+
+
+}
+
